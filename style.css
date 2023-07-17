@@ -14,37 +14,30 @@ body {
   font-weight: 400;
 }
 
-.main-nav {
-  background-color: #222;
-  padding: 1rem 8rem;
+.Navigation {
+  background: #232526;
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  background: linear-gradient(to right, #232931, #232526);
+  padding: 2rem;
+  height: 100vh;
+}
 
+
+
+.main-nav {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-}
-
-.main-nav-list {
-  /* font-size: 2rem; */
-  list-style: none;
-  cursor: pointer;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-}
-
-.main-nav-link {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #f2f2f2;
+  width: 120rem;
+  padding-bottom: 1.4rem;
+  border-bottom: #353841 2px solid;
 
 }
 
 .logo-img {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
 
   box-shadow: 0px 0px 5px 5px skyblue;
@@ -53,5 +46,161 @@ body {
 
 .logo-img:hover {
   box-shadow: 0px 0px 25px 15px skyblue;
+}
 
+.main-nav-list {
+  list-style: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.main-nav-link {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #f2f2f2;
+
+}
+
+.hero-section {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.hero-container {
+  width: 120rem;
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-container-btn {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.hero-text {
+  font-size: 8rem;
+  font-weight: 800;
+  color: #f2f2f2;
+
+}
+
+
+.hero-text span {
+  color: cadetblue;
+}
+
+.hero-btns {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  padding-top: 2rem;
+  gap: 1.8rem;
+}
+
+.btn {
+  font-size: 1.8rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.hire-me {
+  background-color: #00acb4;
+  color: #f2f2f2;
+}
+
+.download-cv {
+  background-color: #353841;
+  color: #f2f2f2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.download-icon {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.hero-img-container {
+  padding-top: 4rem;
+}
+
+.hero-img {
+  width: 40rem;
+  height: 40rem;
+  border-radius: 10%;
+}
+
+
+/* About ME Section ************* */
+
+.About-me-section {
+  height: 100vh;
+  background-color: #232931;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.About-me {
+  width: 120rem;
+  margin: 0 auto;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-me-content {
+  position: relative;
+  align-self: flex-start;
+}
+
+.about-me-left-img {
+  position: absolute;
+  height: 50rem;
+  top: 67rem;
+  left: 17rem;
+  /* top: 0;
+  left: 0; */
+}
+
+/* parent-relative */
+
+.about-me-heading {
+  font-size: 7rem;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+
+.about-me-heading span {
+  color: cadetblue;
+}
+
+.about-me-description {
+  font-size: 1.8rem;
+  width: 70%;
+  color: #f2f2f2;
+  padding-top: 3rem;
+}
+
+.about-me-img img {
+  height: 50rem;
 }
