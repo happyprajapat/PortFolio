@@ -11,6 +11,7 @@ html {
 body {
   font-family: "Raleway";
   color: #f2f2f2;
+  /* color: #333; */
   font-weight: 400;
 }
 
@@ -51,6 +52,7 @@ body {
 .main-nav-list {
   list-style: none;
   cursor: pointer;
+  height: 9.6rem;
 
   display: flex;
   justify-content: center;
@@ -64,6 +66,7 @@ body {
   color: #f2f2f2;
 
 }
+
 
 .hero-section {
   width: 120rem;
@@ -86,12 +89,19 @@ body {
 }
 
 .hero-text {
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: 800;
   color: #f2f2f2;
-
+  position: relative;
 }
 
+
+.hero-arrow {
+  position: absolute;
+  top: 28.8rem;
+  left: 1.6rem;
+  height: 16rem;
+}
 
 .hero-text span {
   color: cadetblue;
@@ -113,7 +123,6 @@ body {
   font-weight: 500;
   border: none;
   cursor: pointer;
-  text-shadow: 1px 1px 2px #f2f2f2;
   border: #414345 2px solid;
 }
 
@@ -189,7 +198,7 @@ body {
 /* parent-relative */
 
 .about-me-heading {
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 700;
   color: #f2f2f2;
 }
@@ -201,7 +210,8 @@ body {
 .about-me-description {
   font-size: 1.8rem;
   width: 70%;
-  color: #f2f2f2;
+  line-height: 27px;
+  color: #EEEEEE 75%;
   padding-top: 3rem;
 }
 
@@ -211,9 +221,7 @@ body {
 
 /* About us section ***********************/
 .my-projects-section {
-  /* background-image: linear-gradient(to right, #232526, #232931), url('../../myprojects-bg.png'); */
-
-  background-image: url('../../myprojects-bg.png'), linear-gradient(rgb(35, 41, 49), rgb(35, 37, 38));
+  background-image: url('../../myprojects-bg.png'), linear-gradient(to left, rgb(35, 41, 49), rgb(35, 37, 38));
 
   height: 100vh;
 }
@@ -224,7 +232,7 @@ body {
 }
 
 .my-projects-heading {
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 700;
 
   padding-top: 6rem;
@@ -276,4 +284,56 @@ body {
 .card img {
   height: 16rem;
   width: 30rem;
+}
+
+/* ContactMe section***********/
+
+.contact-me-section {
+  height: 100vh;
+  background-color: #232931;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-me-content {
+  width: 120rem;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-me-heading {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.contact-me-heading span {
+  color: cadetblue;
+}
+
+.name-email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-form label,
+.contact-form div label {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  background-color: #2d333b;
+  color: #f2f2f2;
+  font-family: "Raleway";
+
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
 }
