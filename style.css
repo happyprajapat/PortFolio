@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Raleway";
-  color: #555;
+  color: #f2f2f2;
   font-weight: 400;
 }
 
@@ -203,4 +203,75 @@ body {
 
 .about-me-img img {
   height: 50rem;
+}
+
+/* About us section ***********************/
+.my-projects-section {
+  /* background-image: linear-gradient(to right, #232526, #232931), url('../../myprojects-bg.png'); */
+
+  background-image: url('../../myprojects-bg.png'), linear-gradient(rgb(35, 41, 49), rgb(35, 37, 38));
+
+  height: 100vh;
+}
+
+.my-projects-content {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.my-projects-heading {
+  font-size: 7rem;
+  font-weight: 700;
+}
+
+.my-projects-heading span {
+  color: cadetblue;
+}
+
+.domain-btns {
+  list-style: none;
+
+  display: flex;
+  gap: 2rem;
+}
+
+.domain-btns li {
+  border: #414345 2px solid;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.domain-btns .selected {
+  background-color: #00acb4;
+  text-shadow: 1px 1px 2px #f2f2f2;
+}
+
+.cards {
+
+
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.card {
+  backdrop-filter: blur(4px);
+  padding: 5rem 2rem;
+
+
+  border-radius: 2rem;
+}
+
+.card img {
+  height: 16rem;
+  width: 30rem;
 }
