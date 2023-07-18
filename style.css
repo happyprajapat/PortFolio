@@ -291,10 +291,21 @@ body {
 .contact-me-section {
   height: 100vh;
   background-color: #232931;
+  /* background-image: url("../contact-me-bg.png"); */
+  position: relative;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.contact-me-bg {
+  position: absolute;
+  top: 3rem;
+  left: 15rem;
+  height: 55rem;
+  width: 90rem;
+  /* z-index: -1; */
 }
 
 .contact-me-content {
@@ -306,6 +317,11 @@ body {
   align-items: center;
 }
 
+.left-side img {
+  padding-left: 20rem;
+  height: 30rem;
+}
+
 .contact-me-heading {
   font-size: 5rem;
   font-weight: 700;
@@ -315,16 +331,25 @@ body {
   color: cadetblue;
 }
 
+.contact-form {
+  padding-right: 5rem;
+  width: 45%;
+
+  z-index: 9 !important;
+}
+
 .name-email {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 2rem;
 }
 
 .contact-form label,
 .contact-form div label {
   font-size: 1.6rem;
   font-weight: 600;
+
 }
 
 input,
@@ -332,8 +357,39 @@ textarea {
   background-color: #2d333b;
   color: #f2f2f2;
   font-family: "Raleway";
+  font-size: 1.4rem;
 
-  padding: 1rem;
+  padding: 1.4rem 2rem;
   border: none;
   border-radius: 1rem;
+  margin-top: 1rem;
+  z-index: 9 !important;
+}
+
+textarea {
+  width: 100%;
+  resize: none;
+}
+
+.submit-button-container {}
+
+.submit-button {
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  background-color: #00acb4;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 2rem;
+  margin-top: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.send-icon {
+  height: 1.8rem;
+  width: 1.8rem;
 }
