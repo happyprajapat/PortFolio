@@ -392,3 +392,93 @@ textarea {
   height: 1.8rem;
   width: 1.8rem;
 }
+
+
+/* Last Section ************88888 */
+.last-section {
+  background-color: #232931;
+  height: 100vh;
+
+}
+
+.last-section-content {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.upper-area {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  align-items: center;
+
+  height: 50vh;
+}
+
+.big-name {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.paragraphs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+
+.para1,
+.para2 {
+  width: 90%;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.num {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.num span {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.big-block {
+
+  padding: 6rem 10rem 8rem 10rem;
+  border-bottom-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+  background: linear-gradient(to top, #4f545a, #232931);
+
+  /*  */
+  /*  */
+}
+
+.big-block-heading {
+  font-size: 5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.get-btn {
+  font-size: 1.6rem;
+  border-radius: 2rem;
+  padding: 1rem 3rem;
+  border: none;
+  background-color: #7b7f83;
+  margin: 0 auto;
+  align-self: center;
+  cursor: pointer;
+  color: #fff;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
