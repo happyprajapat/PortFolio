@@ -189,8 +189,8 @@ body {
 
 .about-me-left-img {
   position: absolute;
-  height: 50rem;
-  top: 67rem;
+  height: 55rem;
+  top: 77rem;
   left: 17rem;
   /* top: 0;
   left: 0; */
@@ -280,9 +280,28 @@ body {
   align-items: center;
 }
 
+
+
 .card1 h2 {
   font-size: 1.8rem;
+}
+
+.githubLogo-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 3rem;
   padding-top: 1rem;
+}
+
+
+
+.github {
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  color: #f2f2f2;
 }
 
 .card {
@@ -296,6 +315,7 @@ body {
 .card img {
   height: 16rem;
   width: 30rem;
+  border-radius: 1rem;
 }
 
 /* ContactMe section***********/
