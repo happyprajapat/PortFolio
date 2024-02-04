@@ -24,33 +24,33 @@
         <img class="logo-img" src="Logo.jpg">
       </a>
       <ul class="main-nav-list">
-        <li><a class="main-nav-link">Home</a></li>
-        <li><a class="main-nav-link">About Me</a></li>
-        <li><a class="main-nav-link">Contact Me</a></li>
+        <li><a href="#about" class="main-nav-link">About Me<span></span></a></li>
+        <li><a href="#project" class="main-nav-link">My Project<span></span></a></li>
+        <li><a href="#contact" class="main-nav-link">Contact Me<span></span></a></li>
       </ul>
     </nav>
 
     <section class="hero-section">
       <div class="hero-container">
         <div class="hero-text-btn">
-          <div class="hero-text">
+          <p class="hero-text">
             Hii! I am a <br><span class="auto-type"> Devloper.</span>
-          </div>
+          </p>
           <img class="hero-arrow" src="arrow-hero-section.png">
           <div class="hero-btns">
             <a class="hire-me btn"
-              href="https://drive.google.com/file/d/1AyrhnNltJO9a8a__qFQmVNWigLvOEhCh/view?usp=drive_link"
-              target="_blank">
+            href="mailto:shreyaprajapat1034@gmail.com"
+              >
               Hire Me
             </a>
-            <button class="download-cv btn">
-              <span>Download CV</span>
+            <a class="download-cv btn"  href="https://drive.usercontent.google.com/u/1/uc?id=1XaaICD2v34Dn_h7dsHta2A3pu55u7fl-&export=download">
+              <span id="download">Download Resume</span>
               <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                 stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round"
                   d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
               </svg>
-            </button>
+            </a>
           </div>
         </div>
         <div class="hero-img-container">
@@ -60,7 +60,7 @@
     </section>
   </header>
 
-  <section class="About-me-section">
+  <section class="About-me-section" id="about">
     <div class="About-me">
       <div class="about-me-content">
         <div class="about-me-heading">About <span> Me</span></div>
@@ -80,7 +80,7 @@
   </section>
 
 
-  <section class="my-projects-section">
+  <section class="my-projects-section" id="project">
     <div class="my-projects-content">
       <div class="my-projects-heading">My recent <span>works</span></div>
       <ul class="domain-btns">
@@ -127,7 +127,7 @@
   </section>
 
 
-  <section class="contact-me-section">
+  <section class="contact-me-section" id="contact">
     <div class="contact-me-content">
       <img src="contact-me-bg.png" class="contact-me-bg">
       <div class="left-side">
@@ -157,12 +157,10 @@
             <button class="submit-button" type="submit">Send Message
               <ion-icon class="send-icon" name="send-outline"></ion-icon>
             </button>
-
           </div>
         </div>
 
-
-      </form>
+      </>
     </div>
   </section>
 
@@ -173,12 +171,10 @@
         <div class="big-name">Happy <br>Prajapat</div>
         <div class="right-content">
           <div class="paragraphs">
-            <div class="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quos accusamus
-              incidunt
-              veniam architecto corrupti neque porro cumque vitae dolorem nobis earum rem, eligendi </div>
-            <div class="para2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque quos accusamus
-              incidunt
-              veniam architecto corrupti neque porro cumque vitae dolorem nobis earum rem, eligendi </div>
+            <div class="para1">Passionate web developer skilled in front-end and back-end technologies, dedicated to creating user-friendly and innovative websites.</div>
+
+            <div class="para2">Proven track record in diverse projects, from e-commerce to CMS, with a commitment to staying current with industry trends.</div>
+            
           </div>
           <div class="numbers">
             <div class="num">15+ <br><span>Projects</span></div>
@@ -190,7 +186,7 @@
 
       <div class="big-block">
         <div class="big-block-heading">Interested in<br> working with me ?</div>
-        <button class="get-btn">Get in Touch</button>
+        <!-- <button class="get-btn">Get in Touch</button> -->
       </div>
     </div>
   </section>
